@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection - SIT725 3.2P</title>
+    
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="orange darken-2">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">🍳 Recipe Collection</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Quick Recipes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="section">
+            <h4 class="center-align">Delicious Recipes</h4>
+            <p class="center-align grey-text">Browse our collection of amazing recipes from around the world</p>
+        </div>
+
+        <!-- Recipe Cards Container -->
+        <div class="row" id="recipes-container">
+            <!-- Cards will be dynamically added here -->
+        </div>
+
+        <!-- Loading Indicator -->
+        <div class="center-align" id="loading">
+            <div class="preloader-wrapper active">
+                <div class="spinner-layer spinner-orange-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer orange darken-2">
+        
+        <div class="footer-copyright">
+            <div class="container">
+                © Recipe book
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
