@@ -1,0 +1,16 @@
+{
+  "name": "books-catalog-mvc",
+  "version": "1.0.0",
+  "description": "SIT725 Week 5 - Books Catalog MVC",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mvc", "books", "sit725"],
+  "author": "s225504843",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
