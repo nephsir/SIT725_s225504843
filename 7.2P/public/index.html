@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Book Ratings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Real-Time Book Rating System</h1>
+            <div id="connectionStatus" class="status disconnected">● Connecting...</div>
+        </header>
+
+        <main>
+            <div class="books-grid" id="booksContainer">
+                <!-- Books will be dynamically loaded here -->
+            </div>
+        </main>
+
+        
+    </div>
+
+    <!-- Load Socket.IO BEFORE scripts.js -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

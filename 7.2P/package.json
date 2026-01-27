@@ -1,0 +1,17 @@
+{
+  "name": "realtime-book-ratings",
+  "version": "1.0.0",
+  "description": "SIT725 Week 7 - Real-time Book Rating System with Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["socket.io", "realtime", "books", "ratings", "sit725"],
+  "author": "s225504843",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
